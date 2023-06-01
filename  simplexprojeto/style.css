@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 5vh;
+    flex: 1 0 auto;
+}
+
+.logo-rodape {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.habilitar {
+    display: block;
+}
+.desabilitar {
+    display: none;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    display: block;
+}
+p#atividade {
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span#titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="number"] {
+	width:40px;
+	text-align: right;
+}
+
+fieldset {
+	border: solid 1px #000;
+}
+/*
+label.lbl1,  input.inp1 {
+	display: block;
+	float: left;
+}
+
+label.lbl1 {	
+	text-align: right;
+	width: 15%;
+	padding-right: 8%;
+	padding-bottom: 2%;
+}
+
+br {
+	clear: left;
+}
+*/
